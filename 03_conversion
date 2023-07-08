@@ -1,0 +1,40 @@
+let score = true;
+let thirdScore = true;
+console.log(typeof score);
+let secondScore = undefined;
+
+console.log(typeof secondScore);
+let valueInNumber = Number(secondScore);
+let svalueInNumber = Number(thirdScore);
+
+console.log(typeof valueInNumber);
+console.log(typeof svalueInNumber);
+console.log(svalueInNumber);
+
+let namee = " Anurag";
+let sst = true;
+let converted = Boolean(namee);
+let docon = Boolean(sst);
+console.log(docon);
+console.log(converted);
+// node 03_conversion
+
+// ************************ OPERATIONS   ****************************
+
+console.log(2 + 2);
+console.log(3 % 2);
+console.log(2 - 2);
+console.log(2 * 2);
+console.log(2 ** 3);
+console.log("2" + 1);
+console.log("2" + 1 + 1);
+console.log("2" + (1 + 1));
+console.log(1 + 1 + "2");
+
+let x = 3;
+const y = x++;
+console.log(x, y);
+
+let a = 3;
+const b = ++a;
+console.log(a, b);
